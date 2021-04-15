@@ -44,7 +44,7 @@ if __name__ == '__main__':
     p.join()
 ```
 
-### **When to use Pool and Process**
+## **When to use Pool and Process**
 
 I think choosing an appropriate approach depends on the task in hand. The pool allows you to do multiple jobs per
 process, which may make it easier to parallelize your program. If you have a million tasks to execute in parallel, you
@@ -75,7 +75,7 @@ process class:
    executing IO operations and schedules another process. So, in the case of long IO operation, it is advisable to use
    process class.
 
-### Multiprocessing - video reading from webcam
+### Multiprocessing - video reading from webcam using **Pool** class
 
 ```python
 from multiprocessing import Pool
