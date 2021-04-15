@@ -99,7 +99,6 @@ def webcam(src):
 
 
 if __name__ == "__main__":
-    num = os.cpu_count()
     with Pool(os.cpu_count()) as p:
         p.map(webcam, [0])
 ```
