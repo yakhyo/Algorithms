@@ -1,2 +1,2 @@
-# Python Notes - Usage of Python Libraries
+# Python Notes - Python Libraries
 - [multiprocessing](./multiprocessing/README.md) - Process-based parallelism.
