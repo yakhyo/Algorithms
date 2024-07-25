@@ -37,3 +37,6 @@ done
 
 echo $(echo $COMMIT_TYPE | sed "s| :|:|g" | sed "s|(.*)|$COMMIT_MESSAGE|g") > $COMMIT_FILE
 printf "${GREEN}"
+
+
+# chmod +x ../.git/hooks/commit-msg
