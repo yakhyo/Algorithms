@@ -11,13 +11,13 @@ COMMIT_FILE=$1
 COMMIT_MESSAGE=$(cat $1)
 
 COMMIT_TYPES=(
-  "🤖 Chore       "
-  "📚 Docs        "
-  "✨ Feat        "
-  "🐛 Fix         "
-  "⚡️ Perf        "
-  "🔨 Refactor    "
-  "🚨 Test        "
+  "🤖 Chore: Other changes"
+  "📚 Docs: Documentation changes"
+  "✨ Feat: New feature"
+  "🐛 Fix: Bug fix"
+  "⚡️ Perf: Performance improvement"
+  "🔨 Refactor: Code refactoring"
+  "🚨 Test: Adding tests"
 )
 
 exec < /dev/tty
